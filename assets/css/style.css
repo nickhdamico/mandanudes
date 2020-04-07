@@ -1,0 +1,46 @@
+#menu {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 89%;
+    }
+
+    li {
+    float: left;
+    margin: 0 auto;
+    }
+
+    li a {
+        margin-left: 100px;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin: 0 auto;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+    background-color: white;
+    }
+    li:last-child {
+        background-color: white;
+        border: 1px solid rgb(194, 168, 124);
+        }
+
+    #logo{
+        display: inline-block;
+        width: 10%;
+    }
+    #ppal{
+        background-color: rgb(161, 122, 56);
+        height: 100px;
+    }
+    #iconer{
+        border-right: 5px solid rgb(194, 168, 124);
+        color: white;
+    }
