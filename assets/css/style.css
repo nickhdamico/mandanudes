@@ -34,7 +34,7 @@
 
     #logo{
         display: inline-block;
-        width: 10%;
+        
     }
     #ppal{
         background-color: rgb(161, 122, 56);
@@ -55,12 +55,18 @@
         height: 15px;
     }
     #planos-a{
+        width: 50%;
+        margin: 0 auto;
+
+        
+    }
+    #draw{
         border: 5px solid rgb(161, 122, 56);
-        height: 100px;
+        width: 720px;
+        padding: 10px;
     }
     #render{
-        border: 5px solid rgb(161, 122, 56);
-        height: 100px;
+        
     }
     #render-plano{
         margin-top: 20px;
