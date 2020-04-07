@@ -38,9 +38,61 @@
     }
     #ppal{
         background-color: rgb(161, 122, 56);
-        height: 100px;
     }
     #iconer{
         border-right: 5px solid rgb(194, 168, 124);
         color: white;
+    }
+    #iconer:last-child{
+        border-right: 0;
+    }
+    #imagenescar{
+        background-color: rgb(161, 122, 56);
+        height: 100px;
+    }
+    #barrainf{
+        background-color: rgb(161, 122, 56);
+        height: 15px;
+    }
+    #planos-a{
+        border: 5px solid rgb(161, 122, 56);
+        height: 100px;
+    }
+    #render{
+        border: 5px solid rgb(161, 122, 56);
+        height: 100px;
+    }
+    #render-plano{
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #planos-hero{
+        background-color: rgb(161, 122, 56);
+        
+    }
+    #ubicacion{
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border: 2px solid rgb(161, 122, 56);
+        height: 100px;
+    }
+    #contacto{
+        margin-top: 20px;
+
+    }
+    .hero{
+        margin-top: 100px;
+        margin-left: 72px;
+        background-color: white;
+        height: 150px;
+        width: 150px;
+    }
+    .hero p{
+
+        margin: 0 auto;
+    }
+    .hero:last-child{
+        margin-bottom: 100px;
     }
