@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -13,11 +14,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-    <nav class="">
+    <nav class="container">
         <img id="logo" src="assets/img/logo.png" alt="LOGO">
         <ul id="menu">
             <li><a href="default.asp">Amenities</a></li>
@@ -27,46 +29,56 @@
             <li><a href="about.asp">Ingreso</a></li>
         </ul>
     </nav>
-    <div class="container-liquid">
         <div class="row">
-            <div class="col"></div>
-            <div class="col">
-                <img src="assets/" alt="">
+            <div class="col-md-5">
+              <div class="cajablanca">
+
+
+                <h2>El lujo de vivir cerca de todo</h2>
+<div class="linea">
+  <div class="lineablanca"></div> <div class="lineacolor"></div>
+</div>
+                </div>
+              </div>
+            <div class="col-md-7">
+                <img class="terraza" src="assets/img/terraza.png" alt="">
+            </div>
+        </div>
+    <div class="container-fluid" id="ppal" style="padding-top:10px;padding-bottom:10px;">
+        <div class="row">
+            <div class="col" id="iconer">
+              <img src="assets/img/i-torres.png" alt="Torres"><br>
+                2 Torres
+            </div>
+            <div class="col" id="iconer">
+              <img src="assets/img/i-mts.png" alt="Metros Cuadrados"><br>
+                5.200 m2
+            </div>
+            <div class="col" id="iconer">
+              <img src="assets/img/i-cocheras.png" alt="Cocheras"><br>
+                50 Cocheras
+            </div>
+            <div class="col" id="iconer">
+              <img src="assets/img/i-unidades.png" alt="Unidades"><br>
+                50 Unidades
             </div>
         </div>
     </div>
-    <div class="container-liquid" id="ppal" style="padding-top:10px;padding-bottom:10px;">
+    <div class="container-fluid" id="ppal" style="padding-top:10px;padding-bottom:10px;">
         <div class="row">
-            <div class="col" id="iconer">
-                One of three columns
+            <div class="col-md-4 nosotrosimg">
             </div>
-            <div class="col" id="iconer">
-                One of three columns
-            </div>
-            <div class="col" id="iconer">
-                One of three columns
-            </div>
-            <div class="col" id="iconer">
-                One of three columns
-            </div>
-        </div>
-    </div>
-    <div class="container-liquid" id="ppal" style="padding-top:10px;padding-bottom:10px;">
-        <div class="row">
-            <div class="col-sm" id="img-maze">
-                IMAGEN NUDE
-            </div>
-            <div class="col-sm" id="iconer">
+            <div class="col-md-8 nosotros">
                 <h3>Nosotros</h3>
                 <p>Cada detalle pensado para brindar confort y calidad de vida.
                     La elección de los materiales, la distribución de los espacios,
                     el diseño y la calidad constructiva son los pilares que le dan
                     identidad y respaldo al emprendimiento.</p>
             </div>
-            
+
         </div>
     </div>
-    <div class="container-liquid">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-10"></div>
             <div class="col" id="imagenescar">
@@ -76,9 +88,9 @@
             </div>
         </div>
     </div>
-    <div class="container-liquid" id="barrainf">
+    <div class="container-fluid" id="barrainf">
     </div>
-    <div class="container-liquid" id="render-plano">
+    <div class="container-fluid" id="render-plano">
         <div class="row">
             <div class="col">
                 <div id="planos-a">
@@ -94,7 +106,7 @@
         </div>
         </div>
     </div>
-    <div class="container-liquid" id="render-plano">
+    <div class="container-fluid" id="render-plano">
         <div class="row">
             <div class="col-8" id="planos-hero">
                 <div class="row hero">
@@ -116,18 +128,18 @@
             <div class="col"></div>
         </div>
     </div>
-    <div class="container-liquid">
+    <div class="container-fluid">
         <div class="row">
             <div class="col" id="ubicacion"></div>
         </div>
     </div>
-    <div class="container-liquid" id="contacto">
+    <div class="container-fluid" id="contacto">
         <div class="row">
             <div class="col-6">
                 <h2 style="margin-left: 144px;">CONTACTO</h2>
             </div>
             <div class="col-6">
-                
+
             </div>
         </div>
     </div>

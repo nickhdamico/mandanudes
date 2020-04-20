@@ -1,5 +1,9 @@
+body{
+  font-family: 'bebas_neuebook';
+  letter-spacing: 2px;
+}
 #menu {
-    display: inline-block;
+    display: inline-flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,26 +20,33 @@
     li a {
         margin-left: 100px;
         display: block;
-        color: black;
+        color: #3c3c3b;
         text-align: center;
-        padding: 14px 16px;
+        padding: 4px 16px;
         text-decoration: none;
         margin: 0 auto;
+        font-size: 23px;
+        letter-spacing: 4.2px;
+
     }
 
     /* Change the link color to #111 (black) on hover */
-    li a:hover {
-    background-color: white;
+    li a:hover, li a:focus {
+    color: #3c3c3b;
+    text-decoration: none;
     }
     li:last-child {
         background-color: white;
-        border: 1px solid rgb(194, 168, 124);
+        border: 3px solid rgb(194, 168, 124);
         }
 
     #logo{
-        display: inline-block;
-        
+    display: inline-block;
+    height: 70px;
+    margin-bottom: 7px;
+    margin-top: 10px;
     }
+
     #ppal{
         background-color: rgb(161, 122, 56);
     }
@@ -58,7 +69,7 @@
         width: 50%;
         margin: 0 auto;
 
-        
+
     }
     #draw{
         border: 5px solid rgb(161, 122, 56);
@@ -66,7 +77,7 @@
         padding: 10px;
     }
     #render{
-        
+
     }
     #render-plano{
         margin-top: 20px;
@@ -75,7 +86,7 @@
     }
     #planos-hero{
         background-color: rgb(161, 122, 56);
-        
+
     }
     #ubicacion{
         margin-top: 30px;
@@ -102,3 +113,74 @@
     .hero:last-child{
         margin-bottom: 100px;
     }
+    .nosotros p{
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 23px;
+    }
+    h2{
+      text-transform: uppercase;
+      font-family: 'bebas_neuebold';
+      font-size: 72px;
+      line-height: 99px;
+      text-align: center;
+      padding-top: 25px;
+      position: relative;
+      right: 11%;
+      letter-spacing: 5px;
+    }
+    .cajablanca{
+      background-color: #ffffff;
+      height: 250px;
+      position: relative;
+      left: 61%;
+      top: 30%;
+      width: 82%;
+      z-index: 10;
+    }
+    .terraza{width: 100%;}
+.linea{
+  display: inline-block;
+}
+.lineablanca{
+  background-color: #ffffff;
+  width: 120px;
+  height: 15px;
+  position: relative;
+  bottom: 115px;
+  left: 560px;
+}
+.lineacolor{
+  background-color: rgb(161, 122, 56);
+  width: 120px;
+  height: 15px;
+  position: relative;
+  bottom: 130px;
+  left: 440px;
+}
+#iconer{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 42px;
+  letter-spacing: 3px;
+}
+#iconer img{
+  height: 90px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.nosotros{
+  color: #ffffff;
+  padding: 60px 100px 60px 0px;
+}
+.nosotros h3{
+        font-family: 'bebas_neuebold';
+        font-size: 40px;
+        letter-spacing: 6px;
+        margin-bottom: 15px;
+}
+.nosotrosimg{
+  background-image: url(../img/nosotros.png);
+  /* background-repeat: round; */
+  background-position: center;
+  height: auto;
+}
