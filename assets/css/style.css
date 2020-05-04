@@ -12,134 +12,140 @@ body{
     width: 89%;
     }
 
-    li {
-    float: left;
-    margin: 0 auto;
-    }
+li {
+float: left;
+margin: 0 auto;
+}
 
-    li a {
-        margin-left: 100px;
-        display: block;
-        color: #3c3c3b;
-        text-align: center;
-        padding: 4px 16px;
-        text-decoration: none;
-        margin: 0 auto;
-        font-size: 23px;
-        letter-spacing: 4.2px;
-
-    }
-
-    /* Change the link color to #111 (black) on hover */
-    li a:hover, li a:focus {
+li a {
+    margin-left: 100px;
+    display: block;
     color: #3c3c3b;
+    text-align: center;
+    padding: 4px 16px;
     text-decoration: none;
-    }
-    li:last-child {
-        background-color: white;
-        border: 3px solid rgb(194, 168, 124);
-        }
+    margin: 0 auto;
+    font-size: 23px;
+    letter-spacing: 4.2px;
 
-    #logo{
-    display: inline-block;
-    height: 70px;
-    margin-bottom: 7px;
-    margin-top: 10px;
-    }
+}
 
-    #ppal{
-        background-color: rgb(158, 123, 54);
-    }
-    #iconer{
-        border-right: 5px solid rgb(194, 168, 124);
-        color: white;
-    }
-    #iconer:last-child{
-        border-right: 0;
-    }
-    #imagenescar{
-        background-color: rgb(158, 123, 54);
-        height: 100px;
-    }
-    #barrainf{
-        background-color: rgb(158, 123, 54);
-        height: 15px;
-    }
-    #planos-a{
-        width: 50%;
-        margin: 0 auto;
-
-
-    }
-    #draw{
-        border: 5px solid rgb(158, 123, 54);
-        padding: 10px;
-    }
-    .render{
-  width: 100%;
-    }
-    #render-plano{
-        margin-top: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    #planos-hero{
-        background-color: rgb(158, 123, 54);
-
-    }
-    #ubicacion{
-        margin-top: 30px;
-        margin-left: 30px;
-        margin-right: 30px;
-        border: 2px solid rgb(158, 123, 54);
-        height: 100px;
-    }
-    #contacto{
-        margin-top: 20px;
-
-    }
-    .hero{
-        margin-top: 100px;
-        margin-left: 72px;
-        background-color: white;
-        height: 150px;
-        width: 150px;
-        text-align: center;
-        border: 3px solid rgb(194, 168, 124);
-    }
-    
-    .hero p{
-        margin: 0 auto;
+/* Change the link color to #111 (black) on hover */
+li a:hover, li a:focus {
+color: #3c3c3b;
+text-decoration: none;
+}
+li:last-child {
+    background-color: white;
+    border: 3px solid rgb(194, 168, 124);
     }
 
-    .hero:last-child{
-        margin-bottom: 100px;
-    }
-    .nosotros p{
-      font-family: 'Nunito Sans', sans-serif;
-      font-size: 23px;
-    }
-    h2{
-      text-transform: uppercase;
-      font-family: 'bebas_neuebold';
-      font-size: 72px;
-      line-height: 99px;
-      text-align: center;
-      padding-top: 25px;
-      position: relative;
-      right: 11%;
-      letter-spacing: 5px;
-    }
-    .cajablanca{
-      background-color: #ffffff;
-      height: 250px;
-      position: relative;
-      left: 61%;
-      top: 30%;
-      width: 82%;
-      z-index: 10;
-    }
-    .terraza{width: 100%;}
+#logo{
+display: inline-block;
+height: 70px;
+margin-bottom: 7px;
+margin-top: 10px;
+}
+
+#ppal{
+    background-color: rgb(158, 123, 54);
+}
+#iconer{
+    border-right: 5px solid rgb(194, 168, 124);
+    color: white;
+}
+#iconer:last-child{
+    border-right: 0;
+}
+#imagenescar{
+    background-color: rgb(158, 123, 54);
+    height: 100px;
+}
+#barrainf{
+    background-color: rgb(158, 123, 54);
+    height: 15px;
+}
+#planos-a{
+    width: 50%;
+    margin: 0 auto;
+}
+#draw{
+    border: 5px solid rgb(158, 123, 54);
+    padding: 10px;
+    max-height: 780px;
+    display: initial;
+}
+.render{
+/* width: 100%; */
+}
+#render-plano{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#planos-hero{
+    background-color: rgb(158, 123, 54);
+
+}
+#ubicacion{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 2px solid rgb(158, 123, 54);
+    height: 100px;
+}
+#contacto{
+    margin-top: 20px;
+
+}
+.hero{
+    margin-top: 80px;
+    margin-left: 72px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border: 3px solid rgb(194, 168, 124);
+    padding-top: 25px;
+    position: relative;
+    left: 3px;
+}
+
+.hero p{
+    margin: 0 auto;
+}
+
+.hero:last-child{
+    margin-bottom: 100px;
+}
+.nosotros p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 23px;
+}
+h2{
+  text-transform: uppercase;
+  font-family: 'bebas_neuebold';
+  font-size: 72px;
+  line-height: 99px;
+  text-align: center;
+  padding-top: 25px;
+  position: relative;
+  right: 11%;
+  letter-spacing: 5px;
+}
+.cajablanca{
+  background-color: #ffffff;
+  height: 250px;
+  position: relative;
+  left: 61%;
+  top: 30%;
+  width: 82%;
+  z-index: 10;
+}
+.terraza{
+width: 100%;}
 .linea{
   display: inline-block;
 }
@@ -172,17 +178,19 @@ body{
 }
 .nosotros{
   color: #ffffff;
-  padding: 60px 100px 60px 0px;
+  padding: 60px 65px 60px 68px;
+  border-left: 25px solid #ffffff;
+  position: relative;
+  right: 11%;
 }
 .nosotros h3{
-        font-family: 'bebas_neuebold';
-        font-size: 40px;
-        letter-spacing: 6px;
-        margin-bottom: 15px;
+  font-family: 'bebas_neuebold';
+  font-size: 40px;
+  letter-spacing: 6px;
+  margin-bottom: 15px;
 }
 .nosotrosimg{
   background-image: url(../img/nosotros.png);
-  /* background-repeat: round; */
   background-position: center;
   height: auto;
 }
@@ -194,4 +202,105 @@ body{
 	color: #ffffff;
 	opacity: 1;
 	font-size: 45px;
+}
+
+.slick-slide {
+   height:100%;
+}
+
+.slick-slide img {
+   max-height:780px;
+}
+.icon-render{
+  height: 50px;
+  display: inline-block;
+  margin-bottom: 20px;
+
+}
+.tipo-row{margin-top: 60px;}
+.tipo-p{
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 13px;
+  font-size: 22px;
+  vertical-align: super;
+}
+.no-mb{
+  vertical-align: sub;
+}
+.gala-border{
+  border: 3px solid rgb(194, 168, 124);
+  display: inline-block;
+  background-color: #ffffff;
+}
+.hero h3{
+  font-family: 'bebas_neuebold';
+  font-size: 65px;
+  margin-bottom: 0px;
+}
+.hero-p{
+  font-family: 'bebas_neuebold';
+  font-size: 32px;
+}
+.tipo-img{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin-top: 13px;
+  float: right;
+}
+.tipo-img img{
+  width: 49%;
+  display: inline-block;
+  vertical-align: initial;
+}
+.tipo-draw{
+margin-bottom: 30px;
+}
+.tipo-render{
+  position: relative;
+    right: 80px;
+}
+.tipo-amme{
+  margin-top: 37px;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+.tipo-bg{
+  background-image: url(../img/backg-tipografias_Backg-Tipografias.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.tipo-div{
+  padding-top: 6px;
+}
+.slider-title1{
+  width: 100%;
+}
+.slider-title1 p {
+  text-align: center;
+  margin-bottom: 0px;
+
+}
+.r-header{
+  margin-bottom: 60px;
+}
+.slide2{
+  border: 3px solid rgb(194, 168, 124);
+}
+
+.slidex3-bg {
+    width:200px;
+    height:50px;
+    border:1px solid black;
+    position:relative;
+}
+.slidex3-bg:after {
+    content:'\A';
+    position:absolute;
+    background:black;
+    top:0; bottom:0;
+    left:0;
+    width:80%;
 }
