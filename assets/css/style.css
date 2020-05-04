@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'bebas_neuebook';
   letter-spacing: 2px;
@@ -96,7 +99,7 @@ margin-top: 10px;
   padding-top: 0px;
 }
 .hero{
-    margin-top: 80px;
+    margin-top: 76px;
     margin-left: 72px;
     background-color: white;
     height: 200px;
@@ -127,7 +130,7 @@ h2{
   text-align: center;
   padding-top: 25px;
   position: relative;
-  right: 11%;
+  /* right: 11%; */
   letter-spacing: 5px;
 }
 .cajablanca{
@@ -186,7 +189,9 @@ width: 100%;}
 }
 .nosotrosimg{
   background-image: url(../img/nosotros.png);
-  background-position: center;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: auto;
 }
 
@@ -227,6 +232,8 @@ width: 100%;}
   border: 3px solid rgb(194, 168, 124);
   display: inline-block;
   background-color: #ffffff;
+  height: 340px;
+  max-height: 340px;
 }
 .hero h3{
   font-family: 'bebas_neuebold';
@@ -249,6 +256,7 @@ width: 100%;}
   width: 49%;
   display: inline-block;
   vertical-align: initial;
+  max-height: 292px;
 }
 .tipo-draw{
 margin-bottom: 30px;
@@ -258,18 +266,24 @@ margin-bottom: 30px;
     right: 80px;
 }
 .tipo-amme{
-  margin-top: 37px;
+  margin-top: 28px;
   margin-bottom: 20px;
   padding: 0px;
 }
+.tamme-3{
+  margin-top: 63px !important;
+}
+.tr-b{
+  margin-bottom: 15px;
+}
 .tipo-bg{
-  background-image: url(../img/backg-tipografias_Backg-Tipografias.png);
+  background-image: url(../img/backg-tipografias.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 .tipo-div{
   padding-top: 6px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 .slider-title1{
   width: 100%;
@@ -287,22 +301,9 @@ margin-bottom: 30px;
     text-align: center;
 }
 
-.slidex3-bg {
-    width:200px;
-    height:50px;
-    border:1px solid black;
-    position:relative;
-}
-.slidex3-bg:after {
-    content:'\A';
-    position:absolute;
-    background:black;
-    top:0; bottom:0;
-    left:0;
-    width:80%;
-}
+
 .nosotroscont{
-  margin-bottom: 40px;
+  background-color: rgb(158, 123, 54);
 }
 .r-ubicacion{
   border: 3px solid rgb(193, 171, 133);
@@ -326,5 +327,73 @@ footer{
   margin: 10px;
 }
 .carousel-item img{
-  width: 100%;
+  width: 90%;
+}
+.box-sl-text{
+  height: 200px;
+  width: 200px;
+  border: 3px solid rgb(153, 123, 66);
+  z-index: 1000;
+  position: relative;
+  left: 10%;
+  top: 150px;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.box-sl-text h3{
+  font-family: 'bebas_neuebold';
+  font-size: 65px;
+  margin-bottom: 0px;
+}
+.box-sl-text p{
+  font-size: 30px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+
+}
+.box-sl-img{
+  padding: 30px 180px 15px 0px;
+
+}
+.slider-3bg{
+  margin-bottom: 30px;
+  background-image: url(../img/backg-slider.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+ }
+ #ubicacion h2, #contacto h2{
+   right: 0%;
+   padding-top: 7px;
+ }
+  #ubicacion p{
+    font-size: 30px;
+  }
+.boxsbott{
+  margin-bottom: 20px;
+}
+.cont-right{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+.ubic-map{
+  background-image: url(../img/backg-ubicacion.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.map{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid rgb(193, 171, 133);
 }
