@@ -325,3 +325,6 @@ footer{
   width: 150px;
   margin: 10px;
 }
+.carousel-item img{
+  width: 100%;
+}

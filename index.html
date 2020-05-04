@@ -81,47 +81,70 @@
     </div>
 
     <div class="container-fluid">
-
         <div class="row ">
-            <div class="col-md-3">
-              <section class="slider-title1">
-                <div>
-                  <div class="li">
-                   <div class="slide2">
-                     <h3>adentro<br>fuera</h3>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
 
-                   </div>
-                   </div>
+              <div class="carousel-item active">
+
+              <div class="row">
+                <div class="col-3">
+                  <h3>adentro<br>fuera</h3>
                 </div>
-
-                <div>
-                  <div class="li">
-                   <div class="slide2">
-                     <p>DISTINTOS AMBIENTES<br>
-                       EN UN MISMO ESPACIO<br>
-                       CON VISTAS<br>
-                       PANORAMICAS</p>
-                   </div>
-                   </div>
+                <div class="col-9">
+                  <img src="assets/img/slider-1a.png" alt="">
                 </div>
-              </section>
-            </div>
+              </div>
 
-            <div class="col-md-9">
-              <section class="slider-img1">
-                <div>
-                  <div class="li">
-                     <img src="assets/img/slider-1a.png" alt="">
-                  </div>
-                  <div class="li">
-                     <img src="assets/img/slider-1b.png" alt="">
-                  </div>
+              <div class="row">
+               <div class="col-3">
+                 <h3>Mas que una<br>terraza</h3>
+               </div>
+               <div class="col-9">
+                 <img src="assets/img/slider-2a.png" alt="">
+               </div>
+             </div>
+
+               <div class="row">
+               <div class="col-3">
+                 <h3>Confort<br>para vivir</h3>
+               </div>
+               <div class="col-9">
+                 <img src="assets/img/slider-3a.png" alt="">
+               </div>
+             </div>
+
+             </div>
+                 <!-- FIN LI -->
+<!--
+                   <div class="carousel-item">
+
+                    <div class="col-3">
+                      <p>Distintos ambientes en un mismo espacio con vistas panoramicas</p>
+                    </div>
+                    <div class="col-9">
+                      <img src="assets/img/slider-1b.png" alt="">
+                    </div>
+
+                    <div class="col-3">
+                      <p>S.U.M<br>Parrilla<br>Piscina<br>Solarium</p>
+                    </div>
+                    <div class="col-9">
+                      <img src="assets/img/slider-2b.png" alt="">
+                    </div>
+
+                    <div class="col-3">
+                      <p>Espacios Amplios<br>Balcón</p>
+                    </div>
+                    <div class="col-9">
+                      <img src="assets/img/slider-3b.png" alt="">
+                    </div>
+
+                    </div> -->
+                                     <!-- FIN LI -->
                 </div>
-                </section>
-
             </div>
         </div>
-
     </div>
 
     <div class="container-fluid" id="barrainf"></div>
@@ -383,41 +406,7 @@ con            </div>
         });
 
       });
-      $(document).ready(function(){
-      $('.slider-title1').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        centerMode: false,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        initialSlide: 1,
-      })
-      .on('setPosition', function (event, slick) {
-    slick.$slides.css('height', slick.$slideTrack.height() + 'px');
-    });
-});
-$(document).ready(function(){
-  $(".slider-img1").slick({
-    dots: false,
-    arrows: false,
-    infinite: true,
-    centerMode: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    initialSlide: 1,
-    responsive: [
-      {
-        breakpoint:600,
-          settings: {
-            mobileFirst: true,
-            slidesToShow: 1,
-          }
-        }
-      ]
-    });
 
-  });
     </script>
 
 </body>
