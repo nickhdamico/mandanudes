@@ -284,6 +284,7 @@ margin-bottom: 30px;
 }
 .slide2{
   border: 3px solid rgb(194, 168, 124);
+    text-align: center;
 }
 
 .slidex3-bg {
@@ -300,7 +301,9 @@ margin-bottom: 30px;
     left:0;
     width:80%;
 }
-
+.nosotroscont{
+  margin-bottom: 40px;
+}
 .r-ubicacion{
   border: 3px solid rgb(193, 171, 133);
   margin-top: 30px;
