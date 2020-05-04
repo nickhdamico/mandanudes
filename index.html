@@ -299,21 +299,70 @@
       </div>
       </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col" id="ubicacion"></div>
+        <div class="row r-ubicacion">
+          <div class="col-md-12">
+
+            <div class="col-md-6" id="ubicacion">
+              <h2>UBICACION</h2>
+              <p>Pitiantuta 702 - Asunsión</p>
+              <div class="col-md-12">
+                <div class="col-md-6">
+                  <div class="box-color"></div>
+                  <div class="box-color"></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="box-color"></div>
+                  <div class="box-color"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <img src="" alt="Ubicación">
+            </div>
+
+          </div>
         </div>
-    </div>
+
     <div class="container-fluid" id="contacto">
         <div class="row">
-            <div class="col-6">
-                <h2 style="margin-left: 144px;">CONTACTO</h2>
-            </div>
-            <div class="col-6">
+            <div class="col-md-6">
+                <h2>CONTACTO</h2>
 
+                <form action="action_page.php">
+
+                   <label for="nombreyapellido">Nombre y Apellido</label><input type="text" id="nombreyapellido" name="nombreyapellido" placeholder=""><br>
+
+                   <label for="telefono">Teléfono/Celular</label>
+                   <input type="text" id="telefono" name="telefono" placeholder=""><br>
+
+                   <label for="email">Email</label>
+                   <input type="email" id="email" name="email" placeholder=""><br>
+
+                   <label for="subject">Mensaje</label>
+                   <textarea id="subject" name="subject" placeholder="Dejanos tu consulta y nos comunicaremos a la brevedad..."></textarea><br>
+
+                   <input type="submit" value="ENVIAR">
+
+                 </form>
+
+            </div>
+            <div class="col-md-6">
+              <img src="assets/img/i-mail.png" alt="Mail Icon">
+              <p>gala.dali.paraguay@gmail.com</p>
+              <img src="assets/img/i-telephone.png" alt="Mail Icon">
+              <p>Próximamente</p>
             </div>
         </div>
     </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small special-color-dark">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 GALA.DALI - Todos los derechos reservados.</div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
 
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
