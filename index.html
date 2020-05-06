@@ -16,6 +16,23 @@
         crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -45,7 +62,7 @@
         </div>
       </div>
 
-      <div class="container-fluid" id="ppal" style="padding-top:10px;padding-bottom:10px;">
+      <div class="container-fluid" id="ppal" style="padding-top:30px;padding-bottom:10px;">
         <div class="row">
           <div class="col" id="iconer">
             <img src="assets/img/i-torres.png" alt="Torres"><br>
@@ -378,91 +395,45 @@
             <div class="col ubic-map">
               <img src="assets/img/map.png" class="map" alt="">
             </div>
-
         </div>
 
     <div class="container-fluid" id="contacto">
-        <div class="row">
-            <div class="col-6">
-                <h2>CONTACTO</h2>
-
-                <form action="https://formspree.io/mgenezvj" method="POST">
-                  <div id="floatContainer1" class="float-container">
-                   <label for="name">Nombre y Apellido</label>
-                   <input type="text" id="name" name="name" data-placeholder="Placeholder 1" required><br>
-                  </div>
-                   <div id="floatContainer2" class="float-container">
-                   <label for="telefono">Teléfono/Celular</label>
-                   <input type="text" id="telefono" name="telefono" data-placeholder="Placeholder 2" required><br>
-                  </div>
-                   <div id="floatContainer3" class="float-container">
-                   <label for="email">Email</label>
-                   <input type="email" id="email" name="_replyto" data-placeholder="Placeholder 3" required><br>
-                  </div>
-                  <script type="text/javascript">
-                  const FloatLabel = (() => {
-
-                    // add active class and placeholder
-                    const handleFocus = (e) => {
-                      const target = e.target;
-                      target.parentNode.classList.add('active');
-                      target.setAttribute('placeholder', target.getAttribute('data-placeholder'));
-                    };
-
-                    // remove active class and placeholder
-                    const handleBlur = (e) => {
-                      const target = e.target;
-                      if(!target.value) {
-                        target.parentNode.classList.remove('active');
-                      }
-                      target.removeAttribute('placeholder');
-                    };
-
-                    // register events
-                    const bindEvents = (element) => {
-                      const floatField = element.querySelector('input');
-                      floatField.addEventListener('focus', handleFocus);
-                      floatField.addEventListener('blur', handleBlur);
-                    };
-
-                    // get DOM elements
-                    const init = () => {
-                      const floatContainers = document.querySelectorAll('.float-container');
-
-                      floatContainers.forEach((element) => {
-                        if (element.querySelector('input').value) {
-                            element.classList.add('active');
-                        }
-
-                        bindEvents(element);
-                      });
-                    };
-
-                    return {
-                      init: init
-                    };
-                  })();
-
-                  FloatLabel.init();
-                </script>
-                <div class="textarea">
-                   <label for="subject">Mensaje</label><br>
-                   <textarea id="subject" name="subject" placeholder="Dejanos tu consulta y nos comunicaremos a la brevedad..."></textarea><br>
-                </div>
-                   <input type="submit" value="ENVIAR">
-
-                 </form>
-
+      <div class="row">
+        <div class="col-7">
+          <h2>CONTACTO</h2>
+          <form action="https://smartforms.dev/submit/5eb08e888a02626591cb5ac3" method="POST">
+            <div id="floatContainer1" class="float-container">
+             <label for="name">Nombre y Apellido</label>
+             <input type="text" id="name" name="name" required><br>
             </div>
-            <div class="col-6">
-              <div class="cont-right">
-              <img src="assets/img/i-mail.png" alt="Mail Icon">
-              <p>gala.dali.paraguay@gmail.com</p>
-              <img src="assets/img/i-telephone.png" alt="Mail Icon">
-              <p>Próximamente</p>
-              </div>
+             <div id="floatContainer2" class="float-container">
+             <label for="telefono">Teléfono/Celular</label>
+             <input type="text" id="telefono" name="telefono" required><br>
             </div>
+             <div id="floatContainer3" class="float-container">
+             <label for="email">Email</label>
+             <input type="email" id="email" name="_replyto" required><br>
+            </div>
+            <div class="textarea">
+               <label for="subject">Mensaje</label><br>
+               <textarea id="subject" name="subject" placeholder="Dejanos tu consulta y nos comunicaremos a la brevedad..."></textarea><br>
+            </div>
+             <input class="enviar" type="submit" value="ENVIAR">
+           </form>
         </div>
+        <div class="col-5">
+          <div class="cont-right">
+            <img src="assets/img/i-mail.png" alt="Mail Icon"><br>
+            <a href="mailto:gala.dali.paraguay@gmail.com">gala.dali.paraguay@gmail.com</a><br>
+            <img src="assets/img/i-telephone.png" alt="Mail Icon"><br>
+            <p class="pais">Paraguay</p>
+            <p>Llamados: +595 9 7243 6768</p>
+            <p>WhatsApp: +595 9 7166 7761</p>
+            <p class="pais">Argentina</p>
+            <p>+54 9 351 200-7971</p>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Footer -->
     <footer class="page-footer font-small special-color-dark">
@@ -472,7 +443,6 @@
 
     </footer>
     <!-- Footer -->
-
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript">

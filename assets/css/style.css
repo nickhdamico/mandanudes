@@ -5,114 +5,6 @@ body{
   font-family: 'bebas_neuebook';
   letter-spacing: 2px;
 }
-#menu {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    width: 89%;
-    }
-
-li {
-float: left;
-margin: 0 auto;
-}
-
-li a {
-    margin-left: 100px;
-    display: block;
-    color: #3c3c3b;
-    text-align: center;
-    padding: 4px 16px;
-    text-decoration: none;
-    margin: 0 auto;
-    font-size: 23px;
-    letter-spacing: 4.2px;
-
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover, li a:focus {
-color: #3c3c3b;
-text-decoration: none;
-}
-li:last-child {
-    background-color: white;
-    border: 3px solid rgb(194, 168, 124);
-    }
-
-#logo{
-display: inline-block;
-height: 70px;
-margin-bottom: 7px;
-margin-top: 10px;
-}
-
-#ppal{
-    background-color: rgb(158, 123, 54);
-}
-#iconer{
-    border-right: 5px solid rgb(194, 168, 124);
-    color: white;
-}
-#iconer:last-child{
-    border-right: 0;
-}
-#barrainf{
-    background-color: rgb(158, 123, 54);
-    height: 15px;
-}
-#planos-a{
-    width: 50%;
-    margin: 0 auto;
-}
-#draw{
-    border: 5px solid rgb(193, 171, 133);
-    padding: 10px;
-    max-height: 780px;
-    display: initial;
-}
-.render{
-/* width: 100%; */
-}
-#render-plano{
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-    margin-bottom: 40px;
-}
-#planos-hero{
-    background-color: rgb(158, 123, 54);
-
-}
-
-.hero{
-    margin-top: 76px;
-    margin-left: 72px;
-    background-color: white;
-    height: 200px;
-    width: 200px;
-    text-align: center;
-    border: 3px solid rgb(194, 168, 124);
-    padding-top: 25px;
-    position: relative;
-    left: 3px;
-}
-
-.hero p{
-    margin: 0 auto;
-}
-
-.hero:last-child{
-    margin-bottom: 100px;
-}
-.nosotros p{
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 23px;
-}
 h2{
   text-transform: uppercase;
   font-family: 'bebas_neuebold';
@@ -121,8 +13,52 @@ h2{
   text-align: center;
   padding-top: 25px;
   position: relative;
-  /* right: 11%; */
   letter-spacing: 5px;
+}
+/* NAV */
+#logo{
+  display: inline-block;
+  height: 70px;
+  margin-bottom: 7px;
+  margin-top: 10px;
+}
+#menu {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  width: 89%;
+}
+li {
+  float: left;
+  margin: 0 auto;
+}
+li a {
+  margin-left: 100px;
+  display: block;
+  color: #3c3c3b;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+  margin: 0 auto;
+  font-size: 23px;
+  letter-spacing: 4.2px;
+}
+li a:hover, li a:focus {
+color: #3c3c3b;
+text-decoration: none;
+}
+li:last-child {
+  background-color: white;
+  border: 3px solid rgb(194, 168, 124);
+}
+/* FIN NAV */
+
+/* HEADER IMG + TITLE*/
+.r-header{
+  margin-bottom: 45px;
 }
 .cajablanca{
   background-color: #ffffff;
@@ -134,7 +70,8 @@ h2{
   z-index: 10;
 }
 .terraza{
-width: 100%;}
+width: 100%;
+}
 .linea{
   display: inline-block;
 }
@@ -142,28 +79,47 @@ width: 100%;}
   background-color: #ffffff;
   width: 120px;
   height: 15px;
-  position: relative;
-  bottom: 115px;
-  left: 560px;
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  transform: translateY(-50%) translateX(-50%);
 }
 .lineacolor{
-  background-color: rgb(158, 123, 54);
+  background-color: rgb(153, 123, 66);
   width: 120px;
   height: 15px;
-  position: relative;
-  bottom: 130px;
-  left: 440px;
+  position: absolute;
+  top: 50%;
+  left: 89.2%;
+  transform: translateY(-50%) translateX(-50%);
 }
+/* FIN HEADER IMG + TITLE */
+
+/* HEADER 4 COLS */
 #iconer{
   text-transform: uppercase;
   text-align: center;
   font-size: 42px;
   letter-spacing: 3px;
+  border-right: 5px solid rgb(194, 168, 124);
+  color: white;
 }
 #iconer img{
   height: 90px;
   margin-bottom: 20px;
   margin-top: 30px;
+}
+#ppal{
+    background-color: rgb(153, 123, 66);
+}
+#iconer:last-child{
+    border-right: 0;
+}
+/* FIN HEADER 4 COLS */
+
+/* **** NOSOTROS **** */
+.nosotroscont{
+  background-color: rgb(153, 123, 66);
 }
 .nosotros{
   color: #ffffff;
@@ -172,6 +128,11 @@ width: 100%;}
   position: relative;
   right: 16%;
 }
+.nosotros p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 23px;
+}
+
 .nosotros h3{
   font-family: 'bebas_neuebold';
   font-size: 40px;
@@ -185,22 +146,113 @@ width: 100%;}
   background-size: contain;
   height: auto;
 }
+/* **** FIN NOSOTROS **** */
 
+/* **** CAROUSEL **** */
+.box-color{
+  background-color: rgb(193, 171, 133);
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+.carousel-item img{
+  width: 90%;
+}
+.box-sl-text{
+  height: 200px;
+  width: 200px;
+  border: 3px solid rgb(153, 123, 66);
+  z-index: 1000;
+  position: relative;
+  left: 10%;
+  top: 150px;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.box-sl-text h3{
+  font-family: 'bebas_neuebold';
+  font-size: 65px;
+  margin-bottom: 0px;
+}
+.box-sl-text p{
+  font-size: 30px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+.box-sl-img{
+  padding: 30px 180px 15px 0px;
+}
+.slider-3bg{
+  margin-bottom: 30px;
+  background-image: url(../img/backg-slider.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+ }
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239B7A37' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+#barrainf{
+  background-color: rgb(153, 123, 66);
+  height: 15px;
+}
+/* **** FIN CAROUSEL **** */
+
+/* BOCETOS/RENDER */
+#draw{
+  border: 5px solid rgb(193, 171, 133);
+  padding: 10px;
+  max-height: 780px;
+  display: initial;
+  width: 100%;
+}
+.render{
+}
+#render-plano{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+}
 .slick-dots li.slick-active button:before {
-    color: #A1D141;
+  color: #A1D141;
 }
 .slick-dots li button:before{
 	color: #ffffff;
 	opacity: 1;
 	font-size: 45px;
 }
-
 .slick-slide {
-   height:100%;
+  height:100%;
 }
-
 .slick-slide img {
    max-height:780px;
+}
+/* FIN BOCETOS/RENDER */
+
+/* TIPOLOGIAS */
+.hero{
+    margin-top: 76px;
+    margin-left: 72px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border: 3px solid rgb(194, 168, 124);
+    padding-top: 25px;
+    position: relative;
+    left: 3px;
+}
+.hero p{
+    margin: 0 auto;
+}
+.hero:last-child{
+    margin-bottom: 100px;
 }
 .icon-render{
   height: 50px;
@@ -208,7 +260,9 @@ width: 100%;}
   margin-bottom: 20px;
 
 }
-.tipo-row{margin-top: 60px;}
+.tipo-row{
+  margin-top: 60px;
+}
 .tipo-p{
   display: inline-block;
   margin-bottom: 0;
@@ -276,118 +330,45 @@ margin-bottom: 30px;
   padding-top: 6px;
   padding-bottom: 60px;
 }
-.slider-title1{
-  width: 100%;
-}
-.slider-title1 p {
-  text-align: center;
-  margin-bottom: 0px;
+/* FIN TIPOLOGIAS */
 
-}
-.r-header{
-  margin-bottom: 60px;
-}
-.slide2{
-  border: 3px solid rgb(194, 168, 124);
-    text-align: center;
-}
-
-
-.nosotroscont{
-  background-color: rgb(158, 123, 54);
-}
-.r-ubicacion{
-  border: 3px solid rgb(193, 171, 133);
-  margin-top: 30px;
-}
-footer{
-  background-color: rgb(153, 123, 66);
-  color: #ffffff;
-}
-
+/* **** UBICACION **** */
 #ubicacion{
   text-align: center;
 }
-.box-color{
-  background-color: rgb(193, 171, 133);
-  display: inline-block;
-  height: 150px;
-  width: 150px;
-  margin: 10px;
+#ubicacion h2, #contacto h2{
+  right: 0%;
+  padding-top: 7px;
 }
-.carousel-item img{
-  width: 90%;
-}
-.box-sl-text{
-  height: 200px;
-  width: 200px;
-  border: 3px solid rgb(153, 123, 66);
-  z-index: 1000;
-  position: relative;
-  left: 10%;
-  top: 150px;
-  background-color: #ffffff;
-  padding: 20px;
-  text-align: center;
-}
-.box-sl-text h3{
-  font-family: 'bebas_neuebold';
-  font-size: 65px;
-  margin-bottom: 0px;
-}
-.box-sl-text p{
-  font-size: 30px;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-}
-.box-sl-img{
-  padding: 30px 180px 15px 0px;
-
-}
-.slider-3bg{
-  margin-bottom: 30px;
-  background-image: url(../img/backg-slider.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+ #ubicacion p{
+   font-size: 30px;
  }
- #ubicacion h2, #contacto h2{
-   right: 0%;
-   padding-top: 7px;
+ .r-ubicacion{
+   border: 3px solid rgb(193, 171, 133);
+   margin-top: 30px;
  }
-  #ubicacion p{
-    font-size: 30px;
-  }
 .boxsbott{
-  margin-bottom: 20px;
-}
-.cont-right{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
+ margin-bottom: 20px;
 }
 .ubic-map{
-  background-image: url(../img/backg-ubicacion.png);
-  background-size: 75%;
-  background-repeat: no-repeat;
-  background-position: center;
+ background-image: url(../img/backg-ubicacion.png);
+ background-size: 75%;
+ background-repeat: no-repeat;
+ background-position: center;
 }
 .map{
-  width: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  padding: 10px;
-  background-color: #ffffff;
-  border: 2px solid rgb(193, 171, 133);
+ width: 50%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translateY(-50%) translateX(-50%);
+ padding: 10px;
+ background-color: #ffffff;
+ border: 2px solid rgb(193, 171, 133);
 }
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239B7A37' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-}
+/* **** FIN UBICACION **** */
+
+
 /* **** CONTACTO **** */
 #contacto{
     margin-top: 20px;
@@ -399,38 +380,154 @@ footer{
 }
 #contacto input{
   border: 3px solid rgb(153, 123, 66);
+  letter-spacing: 1px;
 }
 .float-container {
   padding: 0 8px;
   position: relative;
 }
 .float-container input {
-  width: 400px;
+  width: 350px;
   border: none;
   font-size: 16px;
   outline: 0;
-  padding: 16px 0 10px;
+  padding: 26px 0 10px 5px;
   margin-bottom: 20px;
 }
 .float-container label {
   font-size: 16px;
   position: absolute;
   transform-origin: top left;
-  transform: translate(0, 16px) scale(1);
-  transition: all .1s ease-in-out;
   padding-left: 7px;
-}
-.float-container:active label {
-  transform: translate(0, 4px) scale(.75);
+  padding-top: 5px;
 }
 textarea{
-  width: 400px;
+  width: 350px;
   border: 3px solid rgb(153, 123, 66);
   margin-bottom: 20px;
   letter-spacing: 2px;
-  height: 80px;
-
+  height: 140px;
 }
 .textarea label{
   font-size: 18px;
 }
+.enviar{
+  width: 350px;
+  font-size: 21px;
+  letter-spacing: 6px !important;
+  background-color: rgb(153, 123, 66);
+  color: #ffffff;
+  font-family: 'bebas_neuebold';
+}
+.enviar:hover{
+  background-color: #ffffff;
+  color: rgb(153, 123, 66);
+}
+.cont-right{
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 80%;
+}
+.pais{
+  font-family: 'bebas_neuebold';
+  letter-spacing: 3px;
+  font-size: 27px;
+}
+.cont-right img{margin-bottom: 20px;margin-top: 38px;}
+.cont-right a{
+  text-decoration: none;
+  color: #666666;
+  margin-bottom: 29px;
+}
+/* **** FIN CONTACTO **** */
+
+/* **** FOOTER **** */
+footer{
+  background-color: rgb(153, 123, 66);
+  color: #ffffff;
+}
+/* **** FIN FOOTER **** */
+
+/* GRACIAS */
+.page-container{
+  position: relative;
+  min-height: 100vh;
+  max-width: 100vw;
+  text-align: center;
+}
+.graciasbox{
+  background-color: rgb(153, 123, 66);
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 600px;
+  height: 150px;
+  padding: 20px;
+  font-size: 20px;
+}
+.gracias-foot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+}
+.graciaslogo{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+.outside{
+  margin-top: 50px;
+  color: rgb(153, 123, 66);
+}
+/* FIN GRACIAS */
+/* RESPONSIVE */
+
+/* 1024 -> iPadPro */
+@media only screen and (max-width: 1024px) {
+  #draw{
+    width: 100%;
+  }
+  h2{
+    font-size: 46px;
+    line-height: 61px;
+    padding-top: 26px;
+  }
+  .cajablanca{
+    top: 24%;
+    height: 170px;
+    left: 44%;
+  }
+  .lineacolor{left: 82.2%;}
+  .lineablanca{
+    left: 118%;
+  }
+  #iconer{
+    font-size: 30px;
+  }
+  .nosotros{
+    padding: 49px 20px 60px 15px;
+    width: 100%;
+    right: 0%;
+  }
+  .nosotros p{
+    font-size: 20px;
+  }
+  .box-sl-text{
+    top: 43px;
+    height: 180px;
+  }
+.box-sl-img {
+  padding-right: 80px;
+  }
+
+}
+/* FIN RESPONSIVE */
