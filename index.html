@@ -82,69 +82,105 @@
 
     <div class="container-fluid slider-3bg" id="ammenities">
         <div class="row ">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 100%;">
+          <!-- Carousel 1 -->
+            <div id="carousel1" class="carousel slide" data-ride="carousel" style="width: 100%;">
               <div class="carousel-inner">
-
-
-                 <!-- FIN LI -->
-
                    <div class="carousel-item active">
                      <div class="row">
-                    <div class="col-3 box-sl-text">
-                      <h3>Adentro<br>Afuera</h3>
-                    </div>
-                    <div class="col-9 box-sl-img">
-                      <img src="assets/img/slider-1a.png" alt="">
-                    </div>
-                  </div>
-
-                    <div class="row">
-                    <div class="col-3 box-sl-text">
-                      <h3>Mas que una<br>Terraza</h3>
-                    </div>
-                    <div class="col-9 box-sl-img">
-                      <img src="assets/img/slider-2a.png" alt="">
+                      <div class="col-3 box-sl-text">
+                        <h3>Adentro<br>Afuera</h3>
+                        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="sr-only">Next</span>
+                       </a>
+                      </div>
+                      <div class="col-9 box-sl-img">
+                        <img src="assets/img/slider-1a.png" alt="">
+                      </div>
                     </div>
                   </div>
 
-                    <div class="row">
-                    <div class="col-3 box-sl-text">
-                      <h3>Conforts<br>para vivir</h3>
-                    </div>
-                    <div class="col-9 box-sl-img">
-                      <img src="assets/img/slider-3a.png" alt="">
-                    </div>
-                  </div>
-                    </div>
-
-                    <div class="carousel-item">
+                  <div class="carousel-item">
                       <div class="row">
                      <div class="col-3 box-sl-text">
-                       <p>Distintos ambientes en un mismo espacio con vistas panoramicas</p>
+                       <p style="width: 80%;">Distintos ambientes<br>en un mismo espacio<br>con vistas<br>panoramicas</p>
+                       <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
                      </div>
                      <div class="col-9 box-sl-img">
                        <img src="assets/img/slider-1b.png" alt="">
                      </div>
                    </div>
+                </div>
 
+                </div>
+            </div>
+            <!-- Carousel 2 -->
+            <div id="carousel2" class="carousel slide" data-ride="carousel" style="width: 100%;">
+              <div class="carousel-inner">
+                   <div class="carousel-item active">
                      <div class="row">
+                      <div class="col-3 box-sl-text">
+                        <h3>Mas que una<br>Terraza</h3>
+                        <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="sr-only">Next</span>
+                       </a>
+                      </div>
+                      <div class="col-9 box-sl-img">
+                        <img src="assets/img/slider-2a.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                   <div class="row">
                      <div class="col-3 box-sl-text">
                        <p>S.U.M<br>Parrilla<br>Piscina<br>Solarium</p>
+                       <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
                      </div>
                      <div class="col-9 box-sl-img">
                        <img src="assets/img/slider-2b.png" alt="">
                      </div>
                    </div>
-
-                     <div class="row">
+                  </div>
+                </div>
+            </div>
+            <!-- Carousel 3 -->
+            <div id="carousel3" class="carousel slide" data-ride="carousel" style="width: 100%;">
+              <div class="carousel-inner">
+                 <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-3 box-sl-text">
+                      <h3>Conforts<br>para vivir</h3>
+                      <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                       <span class="sr-only">Next</span>
+                     </a>
+                    </div>
+                    <div class="col-9 box-sl-img">
+                      <img src="assets/img/slider-3a.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                  <div class="carousel-item">
+                    <div class="row">
                      <div class="col-3 box-sl-text">
                        <p>Espacios Amplios<br>Balcón</p>
+                       <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
                      </div>
                      <div class="col-9 box-sl-img">
                        <img src="assets/img/slider-3b.png" alt="">
                      </div>
                    </div>
-                     </div>
+                   </div>
                 </div>
             </div>
         </div>
@@ -350,19 +386,68 @@
             <div class="col-6">
                 <h2>CONTACTO</h2>
 
-                <form action="action_page.php">
-
-                   <label for="nombreyapellido">Nombre y Apellido</label><input type="text" id="nombreyapellido" name="nombreyapellido" placeholder=""><br>
-
+                <form action="https://formspree.io/mgenezvj" method="POST">
+                  <div id="floatContainer1" class="float-container">
+                   <label for="name">Nombre y Apellido</label>
+                   <input type="text" id="name" name="name" data-placeholder="Placeholder 1" required><br>
+                  </div>
+                   <div id="floatContainer2" class="float-container">
                    <label for="telefono">Teléfono/Celular</label>
-                   <input type="text" id="telefono" name="telefono" placeholder=""><br>
-
+                   <input type="text" id="telefono" name="telefono" data-placeholder="Placeholder 2" required><br>
+                  </div>
+                   <div id="floatContainer3" class="float-container">
                    <label for="email">Email</label>
-                   <input type="email" id="email" name="email" placeholder=""><br>
+                   <input type="email" id="email" name="_replyto" data-placeholder="Placeholder 3" required><br>
+                  </div>
+                  <script type="text/javascript">
+                  const FloatLabel = (() => {
+
+                    // add active class and placeholder
+                    const handleFocus = (e) => {
+                      const target = e.target;
+                      target.parentNode.classList.add('active');
+                      target.setAttribute('placeholder', target.getAttribute('data-placeholder'));
+                    };
+
+                    // remove active class and placeholder
+                    const handleBlur = (e) => {
+                      const target = e.target;
+                      if(!target.value) {
+                        target.parentNode.classList.remove('active');
+                      }
+                      target.removeAttribute('placeholder');
+                    };
+
+                    // register events
+                    const bindEvents = (element) => {
+                      const floatField = element.querySelector('input');
+                      floatField.addEventListener('focus', handleFocus);
+                      floatField.addEventListener('blur', handleBlur);
+                    };
+
+                    // get DOM elements
+                    const init = () => {
+                      const floatContainers = document.querySelectorAll('.float-container');
+
+                      floatContainers.forEach((element) => {
+                        if (element.querySelector('input').value) {
+                            element.classList.add('active');
+                        }
+
+                        bindEvents(element);
+                      });
+                    };
+
+                    return {
+                      init: init
+                    };
+                  })();
+
+                  FloatLabel.init();
+                </script>
 
                    <label for="subject">Mensaje</label>
                    <textarea id="subject" name="subject" placeholder="Dejanos tu consulta y nos comunicaremos a la brevedad..."></textarea><br>
-
                    <input type="submit" value="ENVIAR">
 
                  </form>
@@ -411,8 +496,7 @@
         });
 
       });
-
-    </script>
+      </script>
 
 </body>
 
